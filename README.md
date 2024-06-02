@@ -4,5 +4,8 @@ The objective of this project was to develop a model for object detection in the
 
 One model was trained on RGB images, while the other was trained on THERMAL images. Both models were trained with the same configurations, including the number of epochs and other hyperparameters. Finally, we compared the performance of both models on thermal images.
 
+
 ### Dataset
-The dataset used for this project can be found [here](https://adas-dataset-v2.flirconservator.com/).
+We converted the COCO dataset format to be compatible with YOLO. 
+
+You can find the original COCO dataset [here](https://adas-dataset-v2.flirconservator.com/).
