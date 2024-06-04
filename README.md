@@ -9,3 +9,7 @@ One model was trained on RGB images, while the other was trained on THERMAL imag
 We converted the COCO dataset format to be compatible with YOLO. 
 
 You can find the original COCO dataset [here](https://adas-dataset-v2.flirconservator.com/).
+
+The file `object_detection_model_using_thermal_camera_dataset.ipynb` contains information about the dataset, classes, conversion of the COCO format to YOLO, training of the RGB model and the thermal model, displaying metric graphs on the validation and test sets for the respective models.
+
+The file `detect_on_thermal_and_rgb_object_detection_models.ipynb` contains the performance of the RGB model and the THERMAL model on an unlabeled dataset and a comparison of both models for the same images
